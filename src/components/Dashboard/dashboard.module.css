@@ -1,0 +1,43 @@
+.restaurants {
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    height: 100%;
+}
+
+.restaurantDiv {
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid rgb(46, 46, 46);
+    min-width: 200px;
+    height: 200px
+}
+
+
+.restaurantDiv > * {
+    margin-bottom: 5px;
+}
+
+
+.actionsDiv {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.actionsDiv > * {
+    width: 300px;
+}
+
+.pagination {
+    text-align: center;
+}

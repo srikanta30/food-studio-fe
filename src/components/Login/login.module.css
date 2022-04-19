@@ -1,0 +1,20 @@
+.loginContainer {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}
+
+.loginContainer > * {
+    width: 60%;
+}
+
+.loginContainer h1 {
+    margin-bottom: 20px;
+}
+
+.loginContainer h2 {
+    margin-top: 20px;
+}
