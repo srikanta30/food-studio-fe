@@ -120,7 +120,7 @@ return (
                 ),
             }}
             onInput={searchRestaurant} type="text" variant="outlined" placeholder="Search Restaurants..." sx={{ width: '400px' }} />
-        <Button onClick={sortDataByPrice} variant="contained" disableElevation>Sort {sort === 'ascending' ? `(Oldest)` : `(Latest)`}</Button>
+        <Button onClick={sortDataByPrice} variant="contained" disableElevation>Sort {sort === 'asc' ? `(High To Low)` : `(Low To High)`}</Button>
         {cuisines ?
             <FormControl sx={{ minWidth: 200, marginBottom: '20px' }}>
                 <InputLabel id="demo-multiple-chip-label">Cuisines</InputLabel>
